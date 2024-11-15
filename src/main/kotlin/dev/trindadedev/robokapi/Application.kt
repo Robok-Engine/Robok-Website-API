@@ -1,6 +1,5 @@
 package dev.trindadedev.robokapi
 
-import dev.trindadedev.robokapi.plugins.*
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {
@@ -8,5 +7,7 @@ fun main(args: Array<String>) {
 }
 
 fun Application.module() {
+  configureSerialization()
+  configureDatabases()
   configureRouting()
 }
