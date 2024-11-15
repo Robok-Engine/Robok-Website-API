@@ -1,4 +1,4 @@
-package com.example
+package dev.trindadedev.robokapi
 
 import io.ktor.server.application.*
 import io.ktor.server.response.*

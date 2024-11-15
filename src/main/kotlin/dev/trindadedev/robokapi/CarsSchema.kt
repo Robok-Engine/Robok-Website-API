@@ -1,4 +1,4 @@
-package com.example
+package dev.trindadedev.robokapi
 
 import com.mongodb.client.MongoCollection
 import com.mongodb.client.MongoDatabase

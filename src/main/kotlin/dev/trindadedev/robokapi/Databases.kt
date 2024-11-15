@@ -1,4 +1,4 @@
-package com.example
+package dev.trindadedev.robokapi
 
 import com.mongodb.client.*
 import io.ktor.http.*
