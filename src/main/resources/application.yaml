@@ -4,3 +4,13 @@ ktor:
       - dev.trindadedev.robokapi.ApplicationKt.module
   deployment:
     port: 8080
+
+db:
+  mongo:
+    user: "trindadedev"
+    password: "trindadedev"
+    host: "127.0.0.1"
+    port: "27017"
+    maxPoolSize: "20"
+    database:
+      name: "meu_banco_de_dados"
