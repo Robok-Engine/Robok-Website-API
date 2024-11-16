@@ -20,7 +20,7 @@ fun Application.configureVersions() {
 }
 
 // TODO: get latest builds from github
-private fun getVersions: List<Version> = listOf(
+private fun getVersions(): List<Version> = listOf(
   Version(
     invoice = "1.0",
     buildDate = "00/00",
